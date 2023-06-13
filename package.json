@@ -34,7 +34,7 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "netlify deploy --prod",
-    "install": "npm install --legacy-peer-deps $NPM_FLAGS"
+    "install": "npm install $NPM_FLAGS"
   },
   "eslintConfig": {
     "extends": [
