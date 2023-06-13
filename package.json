@@ -3,9 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-        "@emotion/react": "^11.11.1",
-    "@emotion/styled": "^11.11.0",
-    "@mui/material": "^5.13.5",
+    "@material-ui/core": "^4.12.4",
     "@react-google-maps/api": "^2.0.2",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
@@ -36,7 +34,7 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "netlify deploy --prod",
-    "install": "npm install --legacy-peer-deps"
+    "install": "npm install --legacy-peer-deps $NPM_FLAGS"
   },
   "eslintConfig": {
     "extends": [
